@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "staticcorruption",
+  "version": "${version}",
+  "name": "Static Corruption",
+  "description": "Give hostile and peaceful mobs a dangerous static corruption.",
+  "authors": ["EnderDevelopment"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.staticcorruption.StaticCorruptionMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
